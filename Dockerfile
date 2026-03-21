@@ -53,7 +53,7 @@ USER clamav
 # update definitions using freshclam,
 # at bottom of file to ensure it gets run as much as possible
 # when builds are triggered - but this should also be done at service-start-time
-# RUN freshclam
+RUN freshclam
 
 
 
